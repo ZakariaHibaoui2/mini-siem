@@ -1,0 +1,45 @@
+id: WIN-001
+title: Security event log cleared
+severity: high
+type: match
+description: Windows event 1102 - attackers clear logs to hide their tracks.
+selection:
+  winlog.event_id: 1102
+mitre: [T1070.001]
+---
+id: WIN-002
+title: Encoded PowerShell command
+severity: high
+type: match
+selection:
+  process.name|endswith: powershell.exe
+  process.command_line|re: '\s-(e|en|enc|encodedcommand)\s+[A-Za-z0-9+/=]{20,}'
+mitre: [T1059.001, T1027]
+---
+id: WIN-003
+title: Office application spawning a shell
+severity: high
+type: match
+description: Typical of malicious macros.
+selection:
+  process.parent.name: [winword.exe, excel.exe, powerpnt.exe, outlook.exe]
+  process.name: [cmd.exe, powershell.exe, wscript.exe, cscript.exe, mshta.exe, rundll32.exe]
+mitre: [T1204.002, T1059]
+---
+id: WIN-004
+title: New user added to local Administrators
+severity: high
+type: match
+selection:
+  winlog.event_id: 4732
+  group.name|contains: administrators
+mitre: [T1098]
+---
+id: WIN-005
+title: Executable launched from a temporary or download folder
+severity: medium
+type: match
+selection:
+  process.executable|re: '(\\temp\\|\\downloads\\|\\appdata\\local\\temp\\|/tmp/)'
+  process.executable|endswith: [.exe, .scr, .bat, .ps1, .sh]
+mitre: [T1204]

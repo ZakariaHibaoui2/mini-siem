@@ -1,0 +1,21 @@
+id: NET-001
+title: Port scan from a single source
+severity: medium
+type: threshold
+description: Many blocked connections from one source in a short time.
+selection:
+  event.category: network
+  event.action: blocked
+group_by: source.ip
+count: 20
+timeframe: 1m
+mitre: [T1046]
+---
+id: NET-002
+title: DNS query for a known-malicious or dynamic-DNS domain
+severity: medium
+type: match
+selection:
+  event.category: dns
+  dns.question.name|re: '(\.duckdns\.org|\.no-ip\.|\.ddns\.net|\.top|\.xyz|\.onion)$'
+mitre: [T1071.004, T1568]

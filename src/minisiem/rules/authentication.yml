@@ -1,0 +1,39 @@
+id: AUTH-001
+title: Brute force against a single account source
+severity: high
+type: threshold
+description: Many failed logons from one source IP in a short window.
+selection:
+  event.category: authentication
+  event.outcome: failure
+group_by: source.ip
+count: 10
+timeframe: 5m
+mitre: [T1110.001]
+---
+id: AUTH-002
+title: Successful logon after repeated failures
+severity: critical
+type: sequence
+description: A source that failed at least 5 times then authenticated successfully - possible compromised credentials.
+selection:
+  event.category: authentication
+  event.outcome: failure
+followed_by:
+  event.category: authentication
+  event.outcome: success
+group_by: source.ip
+count: 5
+timeframe: 10m
+mitre: [T1110, T1078]
+---
+id: AUTH-003
+title: Logon with a default or service account name
+severity: medium
+type: match
+selection:
+  event.category: authentication
+  event.outcome: success
+  user.name: [administrator, admin, root, guest, sa, postgres]
+  source.ip|not_startswith: ["10.", "192.168.", "127."]
+mitre: [T1078.001]

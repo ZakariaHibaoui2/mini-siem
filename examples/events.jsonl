@@ -1,0 +1,460 @@
+{"@timestamp": "2026-10-05T08:00:04", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.34"}}
+{"@timestamp": "2026-10-05T08:00:23", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.62"}}
+{"@timestamp": "2026-10-05T08:00:52", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:01:03", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.57"}}
+{"@timestamp": "2026-10-05T08:01:20", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:01:48", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:02:07", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.42"}}
+{"@timestamp": "2026-10-05T08:02:20", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "10.0.0.43"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:02:52", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:03:13", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:03:27", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:03:55", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.31"}}
+{"@timestamp": "2026-10-05T08:04:07", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:04:29", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.55"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:04:43", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.48"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:05:10", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.93"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:05:33", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.26"}}
+{"@timestamp": "2026-10-05T08:05:49", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.58"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:06:12", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.63"}}
+{"@timestamp": "2026-10-05T08:06:27", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:06:52", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.48"}}
+{"@timestamp": "2026-10-05T08:07:11", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.44"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:07:25", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.49"}}
+{"@timestamp": "2026-10-05T08:07:55", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:08:15", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.47"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:08:32", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:08:45", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.27"}}
+{"@timestamp": "2026-10-05T08:09:07", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.75"}}
+{"@timestamp": "2026-10-05T08:09:31", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.86"}}
+{"@timestamp": "2026-10-05T08:09:40", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.67"}}
+{"@timestamp": "2026-10-05T08:10:04", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.28"}}
+{"@timestamp": "2026-10-05T08:10:33", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.63"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:10:51", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.66"}}
+{"@timestamp": "2026-10-05T08:11:13", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.55"}}
+{"@timestamp": "2026-10-05T08:11:31", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.36"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:11:50", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.31"}}
+{"@timestamp": "2026-10-05T08:12:05", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.13"}}
+{"@timestamp": "2026-10-05T08:12:28", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.45"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:12:40", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.33"}}
+{"@timestamp": "2026-10-05T08:13:08", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.41"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:13:22", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.18"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:13:48", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:14:09", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.65"}}
+{"@timestamp": "2026-10-05T08:14:35", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.21"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:14:46", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.18"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:15:06", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.57"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:15:20", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "10.0.0.27"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:15:45", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.88"}}
+{"@timestamp": "2026-10-05T08:16:13", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.82"}}
+{"@timestamp": "2026-10-05T08:16:34", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.43"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:16:50", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:17:13", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.21"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:17:21", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.41"}}
+{"@timestamp": "2026-10-05T08:17:49", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:18:13", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.3"}}
+{"@timestamp": "2026-10-05T08:18:21", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.74"}}
+{"@timestamp": "2026-10-05T08:18:54", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.57"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:19:01", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.14"}}
+{"@timestamp": "2026-10-05T08:19:26", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.77"}}
+{"@timestamp": "2026-10-05T08:19:46", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.51"}}
+{"@timestamp": "2026-10-05T08:20:09", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.43"}}
+{"@timestamp": "2026-10-05T08:20:32", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.4"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:20:45", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.22"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:21:10", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.88"}}
+{"@timestamp": "2026-10-05T08:21:23", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:21:51", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.89"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:22:15", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:22:27", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.4"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:22:45", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.29"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:23:08", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:23:28", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.16"}}
+{"@timestamp": "2026-10-05T08:23:49", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.40"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:24:04", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.43"}}
+{"@timestamp": "2026-10-05T08:24:21", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.20"}}
+{"@timestamp": "2026-10-05T08:24:44", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.77"}}
+{"@timestamp": "2026-10-05T08:25:12", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.37"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:25:28", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.74"}}
+{"@timestamp": "2026-10-05T08:25:43", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.15"}}
+{"@timestamp": "2026-10-05T08:26:01", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:26:20", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:26:40", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.9"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:27:13", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.30"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:27:25", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:27:43", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.71"}}
+{"@timestamp": "2026-10-05T08:28:09", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.63"}}
+{"@timestamp": "2026-10-05T08:28:30", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "10.0.0.43"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:28:40", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:29:09", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:29:30", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.53"}}
+{"@timestamp": "2026-10-05T08:29:42", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.22"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:03", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.52"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:05", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:10", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:15", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:20", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:25", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:30", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:35", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:30:35", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:40", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:45", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:48", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.15"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:50", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:30:55", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:31:00", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:31:05", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:31:10", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:31:11", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.19"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:31:15", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:31:25", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "203.0.113.50"}, "user": {"name": "administrator"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:31:34", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.38"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:31:47", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.7"}}
+{"@timestamp": "2026-10-05T08:32:10", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.52"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:32:29", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.8"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:32:42", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.3"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:33:08", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.95"}}
+{"@timestamp": "2026-10-05T08:33:22", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.2"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:33:51", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.14"}}
+{"@timestamp": "2026-10-05T08:34:10", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.44"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:34:24", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.42"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:34:49", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.34"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:35:06", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "10.0.0.60"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:35:30", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:35:46", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.29"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:36:07", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.6"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:36:33", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.58"}}
+{"@timestamp": "2026-10-05T08:36:54", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.55"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:37:15", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.43"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:37:20", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.24"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:37:44", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.55"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:38:12", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.7"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:38:25", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.85"}}
+{"@timestamp": "2026-10-05T08:38:54", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.83"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:39:07", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.33"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:39:27", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:39:50", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.85"}}
+{"@timestamp": "2026-10-05T08:40:08", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.30"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:40:21", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.99"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:40:51", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.51"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:41:09", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:41:31", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.46"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:41:42", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.79"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:42:12", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.18"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:42:21", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.93"}}
+{"@timestamp": "2026-10-05T08:42:51", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.71"}}
+{"@timestamp": "2026-10-05T08:43:01", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.34"}}
+{"@timestamp": "2026-10-05T08:43:23", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.60"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:43:44", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.80"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:44:02", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.50"}}
+{"@timestamp": "2026-10-05T08:44:33", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.58"}}
+{"@timestamp": "2026-10-05T08:44:44", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:45:15", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.17"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:45:33", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:45:53", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.86"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:46:09", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.26"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:46:26", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.4"}}
+{"@timestamp": "2026-10-05T08:46:40", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:47:07", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:47:26", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.11"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:47:49", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.89"}}
+{"@timestamp": "2026-10-05T08:48:14", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:48:25", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.55"}}
+{"@timestamp": "2026-10-05T08:48:43", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:49:12", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.53"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:49:20", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.49"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:49:44", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.25"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:50:13", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.99"}}
+{"@timestamp": "2026-10-05T08:50:30", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.30"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:50:49", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.95"}}
+{"@timestamp": "2026-10-05T08:51:15", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.60"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:51:20", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.83"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:51:46", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.61"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:52:13", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.93"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:52:29", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:52:54", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:53:06", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.88"}}
+{"@timestamp": "2026-10-05T08:53:32", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.45"}}
+{"@timestamp": "2026-10-05T08:53:42", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.33"}}
+{"@timestamp": "2026-10-05T08:54:09", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:54:33", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:54:44", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:55:12", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:55:25", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:55:40", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.92"}}
+{"@timestamp": "2026-10-05T08:56:13", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.71"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T08:56:29", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.55"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:56:54", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.67"}}
+{"@timestamp": "2026-10-05T08:57:03", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T08:57:33", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.6"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:57:45", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.90"}}
+{"@timestamp": "2026-10-05T08:58:02", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.37"}}
+{"@timestamp": "2026-10-05T08:58:29", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.15"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:58:48", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.46"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:59:14", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.8"}}
+{"@timestamp": "2026-10-05T08:59:25", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.49"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T08:59:48", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.31"}}
+{"@timestamp": "2026-10-05T09:00:12", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.63"}}
+{"@timestamp": "2026-10-05T09:00:28", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.44"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:00:47", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.41"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:01:00", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.81"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:01:32", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.99"}}
+{"@timestamp": "2026-10-05T09:01:47", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:02:06", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.48"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:02:34", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.20"}}
+{"@timestamp": "2026-10-05T09:02:48", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.19"}}
+{"@timestamp": "2026-10-05T09:03:04", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.58"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:03:31", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.32"}}
+{"@timestamp": "2026-10-05T09:03:43", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:04:09", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.16"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:04:23", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.7"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:04:41", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:05:00", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.29"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:05:21", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.94"}}
+{"@timestamp": "2026-10-05T09:05:54", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.17"}}
+{"@timestamp": "2026-10-05T09:06:05", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.27"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:06:32", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:06:47", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.20"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:07:12", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.47"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:07:23", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.12"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:07:41", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.2"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:08:12", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:08:29", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.53"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:08:45", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.99"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:09:04", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:09:20", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.11"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:09:52", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.7"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:10:00", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-07"}, "process": {"name": "powershell.exe", "command_line": "powershell.exe -nop -w hidden -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcA", "executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "parent": {"name": "winword.exe"}}}
+{"@timestamp": "2026-10-05T09:10:09", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.6"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:10:21", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.7"}}
+{"@timestamp": "2026-10-05T09:10:30", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-07"}, "process": {"name": "update.exe", "command_line": "update.exe", "executable": "C:\\Users\\victim\\AppData\\Local\\Temp\\update.exe", "parent": {"name": "powershell.exe"}}}
+{"@timestamp": "2026-10-05T09:10:48", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:11:13", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.3"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:11:28", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:11:46", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:12:00", "event": {"category": "iam"}, "winlog": {"event_id": 4732}, "group": {"name": "Administrators"}, "user": {"name": "svc-backup"}}
+{"@timestamp": "2026-10-05T09:12:12", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.35"}}
+{"@timestamp": "2026-10-05T09:12:27", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.39"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:12:53", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:13:00", "event": {"category": "dns"}, "dns": {"question": {"name": "c2-relay.duckdns.org"}}, "source": {"ip": "10.0.1.77"}}
+{"@timestamp": "2026-10-05T09:13:01", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.72"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:13:33", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.70"}}
+{"@timestamp": "2026-10-05T09:13:53", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.10"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:14:08", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:14:22", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.8"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:14:46", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.7"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:15:00", "event": {"category": "audit"}, "winlog": {"event_id": 1102}, "host": {"name": "ws-07"}}
+{"@timestamp": "2026-10-05T09:15:01", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:15:35", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.42"}}
+{"@timestamp": "2026-10-05T09:15:41", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.4"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:16:12", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:16:34", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.35"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:16:50", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.4"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:17:08", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.35"}}
+{"@timestamp": "2026-10-05T09:17:32", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:17:49", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.55"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:18:06", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.67"}}
+{"@timestamp": "2026-10-05T09:18:32", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.76"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:18:55", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.43"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:19:00", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.39"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:19:25", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.26"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:19:53", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.10"}}
+{"@timestamp": "2026-10-05T09:20:01", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.70"}}
+{"@timestamp": "2026-10-05T09:20:30", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.47"}}
+{"@timestamp": "2026-10-05T09:20:48", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.68"}}
+{"@timestamp": "2026-10-05T09:21:00", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.42"}}
+{"@timestamp": "2026-10-05T09:21:30", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:21:42", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.63"}}
+{"@timestamp": "2026-10-05T09:22:14", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.96"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:22:32", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:22:42", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.9"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:23:04", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.33"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:23:28", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:23:50", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.49"}}
+{"@timestamp": "2026-10-05T09:24:12", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.45"}}
+{"@timestamp": "2026-10-05T09:24:25", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.18"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:24:44", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.25"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:25:13", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.81"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:25:21", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:25:48", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:26:06", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.42"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:26:22", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.29"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:26:45", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.4"}}
+{"@timestamp": "2026-10-05T09:27:11", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.64"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:27:29", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.14"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:27:47", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.48"}}
+{"@timestamp": "2026-10-05T09:28:06", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:28:22", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:28:48", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.97"}}
+{"@timestamp": "2026-10-05T09:29:12", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.11"}}
+{"@timestamp": "2026-10-05T09:29:32", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:29:53", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "10.0.0.56"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:30:09", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:30:20", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.67"}}
+{"@timestamp": "2026-10-05T09:30:50", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.71"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:31:09", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.68"}}
+{"@timestamp": "2026-10-05T09:31:33", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:31:49", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.66"}}
+{"@timestamp": "2026-10-05T09:32:14", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.22"}}
+{"@timestamp": "2026-10-05T09:32:28", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:32:53", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:33:01", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.38"}}
+{"@timestamp": "2026-10-05T09:33:20", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.13"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:33:40", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.36"}}
+{"@timestamp": "2026-10-05T09:34:11", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:34:35", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:34:52", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.63"}}
+{"@timestamp": "2026-10-05T09:35:11", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.11"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:35:28", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.77"}}
+{"@timestamp": "2026-10-05T09:35:49", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.54"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:36:08", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.38"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:36:33", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:36:53", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.29"}}
+{"@timestamp": "2026-10-05T09:37:15", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.53"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:37:33", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.10"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:37:47", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:38:03", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.32"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:38:25", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:38:42", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.72"}}
+{"@timestamp": "2026-10-05T09:39:06", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.8"}}
+{"@timestamp": "2026-10-05T09:39:23", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:39:53", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:40:01", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 37}}
+{"@timestamp": "2026-10-05T09:40:02", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 74}}
+{"@timestamp": "2026-10-05T09:40:03", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.89"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:40:03", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 111}}
+{"@timestamp": "2026-10-05T09:40:04", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 148}}
+{"@timestamp": "2026-10-05T09:40:05", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 185}}
+{"@timestamp": "2026-10-05T09:40:06", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 222}}
+{"@timestamp": "2026-10-05T09:40:07", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 259}}
+{"@timestamp": "2026-10-05T09:40:08", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 296}}
+{"@timestamp": "2026-10-05T09:40:09", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 333}}
+{"@timestamp": "2026-10-05T09:40:10", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 370}}
+{"@timestamp": "2026-10-05T09:40:11", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 407}}
+{"@timestamp": "2026-10-05T09:40:12", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 444}}
+{"@timestamp": "2026-10-05T09:40:13", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 481}}
+{"@timestamp": "2026-10-05T09:40:14", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 518}}
+{"@timestamp": "2026-10-05T09:40:15", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 555}}
+{"@timestamp": "2026-10-05T09:40:16", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 592}}
+{"@timestamp": "2026-10-05T09:40:17", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 629}}
+{"@timestamp": "2026-10-05T09:40:18", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 666}}
+{"@timestamp": "2026-10-05T09:40:19", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 703}}
+{"@timestamp": "2026-10-05T09:40:20", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 740}}
+{"@timestamp": "2026-10-05T09:40:21", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 777}}
+{"@timestamp": "2026-10-05T09:40:22", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 814}}
+{"@timestamp": "2026-10-05T09:40:23", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 851}}
+{"@timestamp": "2026-10-05T09:40:24", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 888}}
+{"@timestamp": "2026-10-05T09:40:25", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 925}}
+{"@timestamp": "2026-10-05T09:40:26", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 962}}
+{"@timestamp": "2026-10-05T09:40:27", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 999}}
+{"@timestamp": "2026-10-05T09:40:28", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.53"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:40:28", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1036}}
+{"@timestamp": "2026-10-05T09:40:29", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1073}}
+{"@timestamp": "2026-10-05T09:40:30", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1110}}
+{"@timestamp": "2026-10-05T09:40:31", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1147}}
+{"@timestamp": "2026-10-05T09:40:32", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1184}}
+{"@timestamp": "2026-10-05T09:40:33", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1221}}
+{"@timestamp": "2026-10-05T09:40:34", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1258}}
+{"@timestamp": "2026-10-05T09:40:35", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1295}}
+{"@timestamp": "2026-10-05T09:40:36", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1332}}
+{"@timestamp": "2026-10-05T09:40:37", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1369}}
+{"@timestamp": "2026-10-05T09:40:38", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1406}}
+{"@timestamp": "2026-10-05T09:40:39", "event": {"category": "network", "action": "blocked"}, "source": {"ip": "198.51.100.23"}, "destination": {"port": 1443}}
+{"@timestamp": "2026-10-05T09:40:46", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:41:02", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.17"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:41:34", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.34"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:41:43", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:42:15", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.26"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:42:26", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.18"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:42:49", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.83"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:43:06", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:43:30", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.15"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:43:40", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:44:11", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.92"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:44:28", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.42"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:44:43", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.19"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:45:13", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.18"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:45:21", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.67"}}
+{"@timestamp": "2026-10-05T09:45:44", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.36"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:46:08", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.36"}}
+{"@timestamp": "2026-10-05T09:46:35", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.25"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:46:50", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.50"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:47:14", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.66"}}
+{"@timestamp": "2026-10-05T09:47:30", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.84"}}
+{"@timestamp": "2026-10-05T09:47:46", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.63"}}
+{"@timestamp": "2026-10-05T09:48:10", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.58"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:48:27", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.36"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:48:45", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:49:07", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.74"}}
+{"@timestamp": "2026-10-05T09:49:29", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.4"}}
+{"@timestamp": "2026-10-05T09:49:49", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:50:07", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.16"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:50:30", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.48"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:50:43", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.16"}}
+{"@timestamp": "2026-10-05T09:51:08", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.20"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:51:21", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.94"}}
+{"@timestamp": "2026-10-05T09:51:43", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.17"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:52:11", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.10"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:52:27", "event": {"category": "authentication", "outcome": "failure"}, "source": {"ip": "10.0.0.23"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:52:50", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.16"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:53:11", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.84"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:53:24", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:53:48", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.75"}}
+{"@timestamp": "2026-10-05T09:54:15", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.52"}}
+{"@timestamp": "2026-10-05T09:54:29", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.82"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:54:49", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.78"}}
+{"@timestamp": "2026-10-05T09:55:03", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.15"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:55:20", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.19"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:55:44", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.97"}}
+{"@timestamp": "2026-10-05T09:56:11", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.36"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:56:20", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:56:54", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T09:57:04", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.39"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:57:26", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.48"}}
+{"@timestamp": "2026-10-05T09:57:49", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.56"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:58:12", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.40"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:58:20", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.84"}}
+{"@timestamp": "2026-10-05T09:58:44", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.14"}}
+{"@timestamp": "2026-10-05T09:59:14", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.29"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T09:59:28", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.54"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T09:59:52", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T10:00:01", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.51"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T10:00:20", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T10:00:43", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.67"}}
+{"@timestamp": "2026-10-05T10:01:11", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.85"}}
+{"@timestamp": "2026-10-05T10:01:31", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T10:01:47", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.81"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T10:02:07", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.24"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T10:02:21", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.42"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T10:02:53", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.46"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T10:03:08", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T10:03:21", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T10:03:53", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.98"}}
+{"@timestamp": "2026-10-05T10:04:10", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.32"}}
+{"@timestamp": "2026-10-05T10:04:24", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.45"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T10:04:45", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.64"}}
+{"@timestamp": "2026-10-05T10:05:10", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T10:05:23", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.4"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T10:05:55", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.51"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T10:06:05", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.14"}}
+{"@timestamp": "2026-10-05T10:06:27", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.86"}}
+{"@timestamp": "2026-10-05T10:06:47", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T10:07:14", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T10:07:31", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.94"}}
+{"@timestamp": "2026-10-05T10:07:46", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.71"}}
+{"@timestamp": "2026-10-05T10:08:03", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.18"}}
+{"@timestamp": "2026-10-05T10:08:24", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.28"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T10:08:42", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.60"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T10:09:12", "event": {"category": "process", "action": "start"}, "host": {"name": "ws-01"}, "process": {"name": "chrome.exe", "command_line": "chrome.exe", "executable": "C:\\Program Files\\Google\\Chrome\\chrome.exe", "parent": {"name": "explorer.exe"}}}
+{"@timestamp": "2026-10-05T10:09:29", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.21"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T10:09:43", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.4"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T10:10:14", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.92"}}
+{"@timestamp": "2026-10-05T10:10:27", "event": {"category": "dns"}, "dns": {"question": {"name": "microsoft.com"}}, "source": {"ip": "10.0.1.2"}}
+{"@timestamp": "2026-10-05T10:10:47", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.22"}, "destination": {"port": 443}}
+{"@timestamp": "2026-10-05T10:11:05", "event": {"category": "dns"}, "dns": {"question": {"name": "github.com"}}, "source": {"ip": "10.0.1.11"}}
+{"@timestamp": "2026-10-05T10:11:25", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.39"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T10:11:53", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.4"}, "user": {"name": "carol"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T10:12:02", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.51"}, "user": {"name": "bob"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T10:12:21", "event": {"category": "dns"}, "dns": {"question": {"name": "example.org"}}, "source": {"ip": "10.0.1.14"}}
+{"@timestamp": "2026-10-05T10:12:55", "event": {"category": "authentication", "outcome": "success"}, "source": {"ip": "10.0.0.35"}, "user": {"name": "alice"}, "host": {"name": "web01"}}
+{"@timestamp": "2026-10-05T10:13:00", "event": {"category": "network", "action": "allowed"}, "source": {"ip": "10.0.2.41"}, "destination": {"port": 443}}
